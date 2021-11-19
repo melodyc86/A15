@@ -193,3 +193,52 @@
 	  padding-top: 1em;
 	  padding-bottom: 1em;
   }
+
+@media only screen and (max-width: 959px) {
+    section h1 {
+        font-size: 135%;
+    }
+    section h2, aside h2 {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header img {
+        float: none;
+    }
+    header {
+        text-align: center;
+        align-items: center;
+    }
+    section, aside {
+        float: none;
+        width: 95%;
+    }
+    aside {
+        padding-right: 2.5%;
+    }
+    div {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    * {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #mobile_menu {
+        display: block;
+    }
+    #nav_menu {
+        display: none;
+    }
+    .slicknav_menu {
+        background-color: #800000 !important;
+    }
+}
